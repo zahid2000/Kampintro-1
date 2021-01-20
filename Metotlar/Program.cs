@@ -33,7 +33,7 @@ namespace Metotlar
             SepetManager sepetManager = new SepetManager();
             sepetManager.Ekle(product1);
             sepetManager.Ekle(product2);
-
+            Console.WriteLine("---------------------------------");
             sepetManager.Ekle2("Armut", "Yeşil Armut", 12,10);
             sepetManager.Ekle2("Elma", "Yeşil Elma", 12,8);
             sepetManager.Ekle2("Karpuz", "Diyarbakır Karpuzu", 12,9);
